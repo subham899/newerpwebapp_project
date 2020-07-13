@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89e234e7-b7a4-40fc-a719-2463411fd880" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/erpwebapp/templates/erpwebapp/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/erpwebapp/templates/erpwebapp/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/erpwebapp/templates/erpwebapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/erpwebapp/templates/erpwebapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/erpwebapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/erpwebapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sukdevsir/local_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sukdevsir/local_settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sukdevsir/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sukdevsir/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="89e234e7-b7a4-40fc-a719-2463411fd880" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +82,7 @@
       <updated>1594468879044</updated>
       <workItem from="1594468890949" duration="725000" />
       <workItem from="1594477598023" duration="3186000" />
-      <workItem from="1594618856209" duration="4429000" />
+      <workItem from="1594618856209" duration="4839000" />
     </task>
     <task id="LOCAL-00001" summary="seconed commit">
       <created>1594479671039</created>
