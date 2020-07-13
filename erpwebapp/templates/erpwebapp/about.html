@@ -7,7 +7,7 @@
 <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>NewBiz Bootstrap Template - Index</title>
+  <title>ERP  Template - Index</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -43,95 +43,96 @@
       <nav class="main-nav float-right d-none d-lg-block">
         <ul>
 
-          <li><a href="{% url 'aboutapp' %}">About Us</a></li>
-          <li><a href="{% url 'serviceapp' %}">Services</a></li>
 
-          <li><a href="{% url 'teamapp' %}">Team</a></li>
-
-
-
-
+          <li><a href='{% url 'teamapp' %}'>team</a></li>
+          <li><a href='{% url 'serviceapp' %}'>service</a></li>
+          <li><a href='{% url 'contactapp' %}'>Contact Us</a></li>
         </ul>
       </nav><!-- .main-nav -->
 
     </div>
   </header>
+    <!-- #header -->
 
+ <section id="about">
+      <div class="container">
 
+        <header class="section-header">
+          <h3>About Us</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </header>
 
+        <div class="row about-container">
 
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
 
-
-<section id="contact">
-      <div class="container-fluid">
-
-        <div class="section-header">
-          <h3>Contact Us</h3>
-        </div>
-
-        <div class="row wow fadeInUp">
-{% if name %}
-    <h2>Thanks {{ name }}!</h2>
-    <br/>
-    <p> We will contact you shortly...</p>
-    {% else %}
-          <div class="col-lg-6">
-            <div class="map mb-4 mb-lg-0">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117835.83465725862!2d88.33772509499694!3d22.639995665881205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x80cc80f914d898c4!2sGodrej%20Genesis%20%26%20Simoco%20Telecommunications%20(South%20Asia)%20Limited!5e0!3m2!1sen!2sin!4v1587797336193!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>"
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
+              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
             </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-photo"></i></div>
+              <h4 class="title"><a href="">Magni Dolores</a></h4>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+              <div class="icon"><i class="fa fa-bar-chart"></i></div>
+              <h4 class="title"><a href="">Dolor Sitema</a></h4>
+              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            </div>
+
           </div>
 
-          <div class="col-lg-6">
-            <div class="row">
-              <div class="col-md-5 info">
-                <i class="ion-ios-location-outline"></i>
-                <p>A108 Adam Street, NY 535022</p>
-              </div>
-              <div class="col-md-4 info">
-                <i class="ion-ios-email-outline"></i>
-                <p>sukdev@mcnroe.com</p>
-              </div>
-              <div class="col-md-3 info">
-                <i class="ion-ios-telephone-outline"></i>
-                <p>+918697718535</p>
-              </div>
-            </div>
+          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+            <img src="{% static "assets/img/about-img.svg" %}" class="img-fluid" alt="">
+          </div>
+        </div>
 
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp">
+            <img src="{% static "assets/img/about-extra-1.svg" %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+            <h4>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h4>
+            <p>
+              Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.
+            </p>
+            <p>
+              Ad vitae recusandae odit possimus. Quaerat cum ipsum corrupti. Odit qui asperiores ea corporis deserunt veritatis quidem expedita perferendis. Qui rerum eligendi ex doloribus quia sit. Porro rerum eum eum.
+            </p>
+          </div>
+        </div>
 
-            <div class="form">
-                <form action="{% url 'contactapp' %}" method="post">
-                    {% csrf_token %}
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
+            <img src="{% static "assets/img/about-extra-2.svg" %}" class="img-fluid" alt="">
+          </div>
 
-                <div class="form-row">
-                  <div class="form-group col-lg-6">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                    <div class="validate"></div>
-                  </div>
-                  <div class="form-group col-lg-6">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                    <div class="validate"></div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                  <div class="validate"></div>
-                </div>
-                <div class="text-center"><button id="btnsubmitid" onclick="myFunction()" type="submit" title="Send Message">Send Message</button></div>
-              </form>
-            </div>
+          <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+            <h4>Neque saepe temporibus repellat ea ipsum et. Id vel et quia tempora facere reprehenderit.</h4>
+            <p>
+              Delectus alias ut incidunt delectus nam placeat in consequatur. Sed cupiditate quia ea quis. Voluptas nemo qui aut distinctio. Cumque fugit earum est quam officiis numquam. Ducimus corporis autem at blanditiis beatae incidunt sunt.
+            </p>
+            <p>
+              Voluptas saepe natus quidem blanditiis. Non sunt impedit voluptas mollitia beatae. Qui esse molestias. Laudantium libero nisi vitae debitis. Dolorem cupiditate est perferendis iusto.
+            </p>
+            <p>
+              Eum quia in. Magni quas ipsum a. Quis ex voluptatem inventore sint quia modi. Numquam est aut fuga mollitia exercitationem nam accusantium provident quia.
+            </p>
           </div>
 
         </div>
 
       </div>
-    </section>
-  {% endif %}<!-
+    </section><!-- End About Section -->
 
- <!-- ======= Footer ======= -->
+<!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
@@ -201,7 +202,7 @@
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+ <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="{% static "assets/vendor/jquery/jquery.min.js" %}"></script>
@@ -221,3 +222,6 @@
   <script src="{% static "assets/js/main.js" %}"></script>
 
 
+</body>
+
+</html>

@@ -125,11 +125,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_URL ='/media/'
 MEDIA_URL = os.path.join(BASE_DIR, 'Media/')
 
-#try:
-   # from .local_settings import *
-#except ImportError:
-  #  print('yor r not in local server')
-
 #email setting
 #URL = myaccount.google.com/lesssecureapps
 

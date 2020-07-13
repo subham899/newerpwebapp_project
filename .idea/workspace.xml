@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89e234e7-b7a4-40fc-a719-2463411fd880" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/erpwebapp/static/assets/img/erp_make_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sukdevsir/local_settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/erpwebapp/templates/erpwebapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/erpwebapp/templates/erpwebapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/erpwebapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/erpwebapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sukdevsir/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sukdevsir/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sukdevsir/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sukdevsir/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="89e234e7-b7a4-40fc-a719-2463411fd880" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +82,7 @@
       <updated>1594468879044</updated>
       <workItem from="1594468890949" duration="725000" />
       <workItem from="1594477598023" duration="3186000" />
-      <workItem from="1594618856209" duration="1957000" />
+      <workItem from="1594618856209" duration="4839000" />
     </task>
     <task id="LOCAL-00001" summary="seconed commit">
       <created>1594479671039</created>
@@ -114,22 +106,22 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="250" y="0" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1594479670003" />
-    <state width="1385" height="208" key="GridCell.Tab.0.bottom" timestamp="1594620928622">
+    <state width="1385" height="208" key="GridCell.Tab.0.bottom" timestamp="1594623947549">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1385" height="208" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1594620928622" />
-    <state width="1385" height="208" key="GridCell.Tab.0.center" timestamp="1594620928622">
+    <state width="1385" height="208" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1594623947549" />
+    <state width="1385" height="208" key="GridCell.Tab.0.center" timestamp="1594623947549">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1385" height="208" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1594620928622" />
-    <state width="1385" height="208" key="GridCell.Tab.0.left" timestamp="1594620928622">
+    <state width="1385" height="208" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1594623947549" />
+    <state width="1385" height="208" key="GridCell.Tab.0.left" timestamp="1594623947549">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1385" height="208" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1594620928622" />
-    <state width="1385" height="208" key="GridCell.Tab.0.right" timestamp="1594620928622">
+    <state width="1385" height="208" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1594623947549" />
+    <state width="1385" height="208" key="GridCell.Tab.0.right" timestamp="1594623947549">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1385" height="208" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1594620928622" />
+    <state width="1385" height="208" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1594623947549" />
     <state x="346" y="216" key="com.intellij.ide.util.TipDialog" timestamp="1594618857691">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
