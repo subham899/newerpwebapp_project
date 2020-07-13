@@ -20,4 +20,5 @@ from erpwebapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home , name='homeapp'),
+    path('contact', views.contact, name='contactapp'),
 ]

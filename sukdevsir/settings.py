@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '7j$19w+ix*^2@58t(d1*!ebmlpdds*%9op%gmc#x828jjzoz1&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['subhambasu.pythonanywhere.com']
 
@@ -123,4 +123,18 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 
 MEDIA_URL ='/media/'
-MEDIA_URL = os.path.join(BASE_DIR, 'Media')
+MEDIA_URL = os.path.join(BASE_DIR, 'Media/')
+
+try:
+    from .local_settings import *
+except ImportError:
+    print('yor r not in local server')
+
+#email setting
+#URL = myaccount.google.com/lesssecureapps
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'lagp40626@gmail.com'
+EMAIL_HOST_PASSWORD = 'language@py'
