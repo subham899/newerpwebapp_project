@@ -21,4 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home , name='homeapp'),
     path('contact', views.contact, name='contactapp'),
+    path('about', views.about, name='aboutapp'),
+    path('service', views.service, name='serviceapp'),
+    path('team', views.team, name='teamapp'),
 ]

@@ -5,6 +5,15 @@ from django.conf import settings
 def home(request):
     return render(request, 'erpwebapp/index.html')
 
+def about(request):
+    return render(request, 'erpwebapp/about.html')
+
+def service(request):
+    return render(request, 'erpwebapp/serviceapp.html')
+
+def team(request):
+    return render(request, 'erpwebapp/team.html')
+
 def contact(request):
     if request.method == 'POST':
         name=request.POST['name']

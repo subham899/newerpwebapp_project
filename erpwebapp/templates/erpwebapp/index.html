@@ -77,10 +77,10 @@
         <ul>
 
 
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Team</a></li>
+          <li><a href="{% url 'aboutapp' %}">About Us</a></li>
+          <li><a href="{% url 'serviceapp' %}">Services</a></li>
+
+          <li><a href="{% url 'teamapp' %}">Team</a></li>
           <li><a href='{% url 'contactapp' %}'>Contact Us</a></li>
         </ul>
       </nav><!-- .main-nav -->
